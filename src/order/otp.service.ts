@@ -27,7 +27,7 @@ export class OtpService {
     await this.otpRepository.save(otpEntity);
 
     const data = {
-      from: 'YourApp <no-reply@yourdomain.com>',
+      from: 'jogenichi2001@gmail.com',
       to: email,
       subject: 'Your OTP Code',
       text: `Your OTP code is: ${otp}`,
